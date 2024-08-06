@@ -12,7 +12,7 @@
     --popover-foreground: 222.2 84% 4.9%;
     --primary: 211 33% 40%;
     --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
+    --secondary: 205 85% 40%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -59,11 +59,41 @@
   }
 }
 
+.navItem {
+  width: calc(100px - 55px);
+  height: calc();
+  text-align: center;
+}
+.navItemT {
+  width: calc((100px - 7px));
+  text-align: center;
+}
+.navItemP {
+  width: calc(150px - 5px);
+  text-align: center;
+}
+
+.opasClass {
+  background-color: #45668971;
+}
+
 @layer base {
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
+  }
+  h1 {
+    @apply text-4xl
+  }
+  h2 {
+      @apply text-2xl
+  }
+  h3 {
+    @apply text-xl
+  }
+  h4 {
+    @apply text-lg
   }
 }

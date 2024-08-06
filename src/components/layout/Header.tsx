@@ -12,15 +12,15 @@ export const Header = () => {
               <Image src={abbcLogo} alt='abbc_logo' width={130} height={60} className='w-20 md:w-28'/>
             </div>
             <div className='hidden w-[60%] md:flex md:justify-between'>
-                <div className='text-primary text-xs md:text-sm lg:text-base focus:font-semibold hover:font-semibold cursor-pointer'>
+                <div className='text-primary text-xs md:text-sm lg:text-base focus:font-semibold hover:font-semibold cursor-pointer navItem'>
                     <Link href="/">Home</Link></div>
-                <div className='text-primary text-xs md:text-sm lg:text-base focus:font-semibold hover:font-semibold cursor-pointer'>
+                <div className='text-primary text-xs md:text-sm lg:text-base focus:font-semibold hover:font-semibold cursor-pointer navItem'>
                     <Link href="/about">About</Link></div>
-                <div className='text-primary text-xs md:text-sm lg:text-base focus:font-semibold hover:font-semibold cursor-pointer'>
+                <div className='text-primary text-xs md:text-sm lg:text-base focus:font-semibold hover:font-semibold cursor-pointer navItemT'>
                     <Link href="/technology">Technology</Link></div>
-                <div className='text-primary text-xs md:text-sm lg:text-base focus:font-semibold hover:font-semibold cursor-pointer'>
+                <div className='text-primary text-xs md:text-sm lg:text-base focus:font-semibold hover:font-semibold cursor-pointer navItemP'>
                     <Link href="/product_pl">Product & Pipeline</Link></div>
-                <div className='text-primary text-xs md:text-sm lg:text-base focus:font-semibold hover:font-semibold cursor-pointer'>
+                <div className='text-primary text-xs md:text-sm lg:text-base focus:font-semibold hover:font-semibold cursor-pointer navItem'>
                     <Link href="/news">News</Link></div>
             </div>
             <div>

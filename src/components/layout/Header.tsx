@@ -39,7 +39,7 @@ export const Header = () => {
                 <Menubar>
                     <MenubarMenu>
                         <MenubarTrigger>
-                            <RxHamburgerMenu size={32}/>
+                            <RxHamburgerMenu className='text-primary' size={32}/>
                         </MenubarTrigger>
                         <MenubarContent>
                             <MenubarItem className='font-semibold text-primary'>

@@ -15,7 +15,7 @@ export const OurTeam = () => {
           <h1 className='text-secondary'>Meet Our Team</h1>
           <p className='text-slate-700 font-light text-xs md:text-sm lg:text-base'>We built a team with deep expertise in AbBC Therapeutical</p>
           <Button className='text-secondary text-xs bg-white md:text-sm border border-secondary md:px-7 hover:bg-secondary hover:text-white rounded-full'>
-          <Link href={'/#'}>Our Team</Link>
+          <Link href={'/team'}>Our Team</Link>
           </Button>
         </div>
       </div>

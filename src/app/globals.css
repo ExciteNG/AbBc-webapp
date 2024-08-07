@@ -38,7 +38,7 @@
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
-    --primary:211 33% 40%;
+    --primary: 211 33% 40%;
     --primary-foreground: 222.2 47.4% 11.2%;
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -66,4 +66,28 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.progress-bar {
+  height: 30px;
+  background-color: #fff;
+  position: relative;
+}
+.progress-bar::after {
+  content: "";
+  display: block;
+  height: 100%;
+  background-color: #f1592a;
+  clip-path: polygon(75% 0%, 80% 51%, 75% 100%, 0% 100%, 6% 50%, 0% 0%);
 }

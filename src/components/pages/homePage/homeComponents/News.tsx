@@ -44,7 +44,7 @@ export const News = () => {
                <Button className='text-secondary text-xs bg-white md:text-sm border border-secondary md:px-7 hover:bg-secondary hover:text-white rounded-full'>News</Button>
             </Link>
         </div>
-        <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 px-4'>
+        <div className='grid grid-cols-1 gap-9 md:grid-cols-2 lg:grid-cols-4 px-4'>
             {news.map((newItem, key )=> {
             return (
             <div key={key}>

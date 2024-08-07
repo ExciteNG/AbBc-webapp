@@ -1,6 +1,6 @@
 "use client"
 
-import * as React from "react"
+import * as React from "react";
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react"
@@ -177,7 +177,6 @@ const CarouselItem = React.forwardRef<
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => {
   const { orientation } = useCarousel()
-
   return (
     <div
       ref={ref}
@@ -208,7 +207,7 @@ const CarouselPrevious = React.forwardRef<
       className={cn(
         "absolute  h-8 w-8 rounded-full",
         orientation === "horizontal"
-          ? "right-40 bottom-0 md:-translate-y-1/2"
+          ?"bottom-0 md:-translate-y-1/2"
           : "-top-12 left-0 -translate-x-1/2 rotate-90",
         className
       )}

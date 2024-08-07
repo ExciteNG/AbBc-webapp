@@ -16,11 +16,11 @@ export const Footer = () => {
                       <Image src={abbcLogo} alt='abbc_logo' width={130} height={60} className='w-20 md:w-28'/>
                    </div>
                    <div className='hidden w-[50%] md:ml-[10%] lg:ml-[14%] md:flex md:justify-between'>
-                       <div className='text-primary focus:font-semibold hover:font-medium cursor-pointer text-xs lg:text-sm'>Home</div>
-                       <div className='text-primary focus:font-semibold hover:font-medium cursor-pointer text-xs lg:text-sm'>About</div>
-                       <div className='text-primary focus:font-semibold hover:font-medium cursor-pointer text-xs lg:text-sm'>Technology</div>
-                       <div className='text-primary focus:font-semibold hover:font-medium cursor-pointer text-xs lg:text-sm'>Product & PipeLine</div>
-                       <div className='text-primary focus:font-semibold hover:font-medium cursor-pointer text-xs lg:text-sm'>News</div>
+                       <div className='text-primary focus:font-semibold hover:font-medium cursor-pointer text-xs lg:text-sm navItem'><Link href={'/'}>Home</Link></div>
+                       <div className='text-primary focus:font-semibold hover:font-medium cursor-pointer text-xs lg:text-sm navItem'><Link href={'/'}>About</Link></div>
+                       <div className='text-primary focus:font-semibold hover:font-medium cursor-pointer text-xs lg:text-sm navItemT'><Link href={'/'}>Technology</Link></div>
+                       <div className='text-primary focus:font-semibold hover:font-medium cursor-pointer text-xs lg:text-sm navItemP'><Link href={'/'}>Product & PipeLine</Link></div>
+                       <div className='text-primary focus:font-semibold hover:font-medium cursor-pointer text-xs lg:text-sm navItem'><Link href={'/'}>News</Link></div>
                    </div>
                 </div>
                 <div className='flex space-x-5 justify-center items-center'>

@@ -18,6 +18,12 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'hero-image': "url('/assets/backgroundheroimage.svg')"
+      },
+      fontSize: {
+        xxs: "11px"
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

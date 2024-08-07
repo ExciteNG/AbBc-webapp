@@ -9,7 +9,7 @@ export const ProductSection = () => {
     <section className='py-10'>
         <div className='bg-slate-100 px-4 flex flex-col space-y-4 md:space-y-0 md:flex-row md:justify-evenly md:items-center py-10 md:h-40'>
             <div className='-mt-2 self-start'>
-              <Link href={'/'}>
+              <Link href={'/product_pl'}>
               <Button className='text-xs lg:text-sm text-secondary bg-white border border-secondary hover:text-white rounded-full hover:bg-secondary lg:px-7'>Product</Button>
               </Link>
             </div>

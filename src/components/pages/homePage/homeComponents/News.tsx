@@ -40,7 +40,7 @@ export const News = () => {
   return (
     <section className='space-y-4 px-4 md:px-16 md:py-20 pb-14'>
         <div className='text-start'>
-            <Link href={'/'}>
+            <Link href={'/news'}>
                <Button className='text-secondary text-xs bg-white md:text-sm border border-secondary md:px-7 hover:bg-secondary hover:text-white rounded-full'>News</Button>
             </Link>
         </div>

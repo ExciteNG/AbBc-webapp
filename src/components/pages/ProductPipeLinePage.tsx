@@ -7,7 +7,7 @@ const ProductPipeLinePage = () => {
     <section className="mb-20">
       <div className="relative h-[601px] flex justify-start items-center">
         <Image
-          src={"/assets/product-pipeline-banner.png"}
+          src={"/assets/product-pipeline-banner.svg"}
           layout="fill"
           alt="banner"
           objectFit="cover"

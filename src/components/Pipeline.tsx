@@ -22,7 +22,7 @@ const Pipeline = () => {
                 Pancreatic, Melanoma, Liver, Glioblastoma, Glioma
               </td>
               <td className="py-2 px-4 border-r relative" colSpan={2}>
-                <div className="absolute left-0 top-0 w-[400px] progress-bar"></div>
+                <div className="absolute left-0 top-0 w-[110%] progress-bar"></div>
               </td>
               <td className="py-2 px-4 border-r"></td>
             </tr>
@@ -36,7 +36,7 @@ const Pipeline = () => {
                 Neovascularization
               </td>
               <td className="py-2 px-4 border-r relative" colSpan={2}>
-                <div className="absolute left-0 top-0 w-[300px] progress-bar"></div>
+                <div className="absolute left-0 top-0 w-[95%] progress-bar"></div>
               </td>
               <td className="py-2 px-4 border-r"></td>
             </tr>
@@ -47,7 +47,7 @@ const Pipeline = () => {
               </td>
               <td className="py-2 px-4 border-r">Pancreatic Ovarian</td>
               <td className="py-2 px-4 border-r relative" colSpan={2}>
-                <div className="absolute left-0 top-0 w-[180px] progress-bar"></div>
+                <div className="absolute left-0 top-0 w-[70%] progress-bar"></div>
               </td>
               <td className="py-2 px-4 border-r"></td>
             </tr>
@@ -61,7 +61,7 @@ const Pipeline = () => {
                 Stomach
               </td>
               <td className="py-2 px-4 border-r relative" colSpan={2}>
-                <div className="absolute left-0 top-0 w-[250px] progress-bar"></div>
+                <div className="absolute left-0 top-0 w-[90%] progress-bar"></div>
               </td>
               <td className="py-2 px-4 border-r"></td>
             </tr>
@@ -75,7 +75,7 @@ const Pipeline = () => {
                 Leukemias, Lymphomas
               </td>
               <td className="py-2 px-4 border-r relative" colSpan={2}>
-                <div className="absolute left-0 top-0 w-[250px] progress-bar"></div>
+                <div className="absolute left-0 top-0 w-[90%] progress-bar"></div>
               </td>
               <td className="py-2 px-4 border-r"></td>
             </tr>
@@ -87,7 +87,7 @@ const Pipeline = () => {
                 Thyroid, Pancreatic, Ovarian
               </td>
               <td className="py-2 px-4 border-r relative" colSpan={2}>
-                <div className="absolute left-0 top-0 w-[170px] progress-bar"></div>
+                <div className="absolute left-0 top-0 w-[80%] progress-bar"></div>
               </td>
               <td className="py-2 px-4 border-r"></td>
             </tr>

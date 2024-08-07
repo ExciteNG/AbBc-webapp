@@ -20,7 +20,7 @@ const TeamPage = () => {
     <section className="mb-20">
       <div className="relative h-[601px] flex justify-start items-center">
         <Image
-          src={"/assets/team-banner.png"}
+          src={"/assets/team-banner.svg"}
           layout="fill"
           alt="team banner"
           objectFit="cover"

@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Heroimage from '@/../public/assets/backgroundheroimage.svg';
+import heroegif from "@/../public/assets/herogif.svg"
 import { Button } from '@/components/ui/button';
 
 export const Hero = () => {

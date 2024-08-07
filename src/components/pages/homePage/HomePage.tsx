@@ -1,11 +1,11 @@
 import React from 'react';
 //HOME COMPONENTS
-import Hero from './homeSections/HeroSection';
-import AboutSection from './homeSections/AboutSection';
-import TechnologySection from './homeSections/TechnologySection';
-import ProductSection from './homeSections/ProductSection';
-import OurTeam from './homeSections/OurTeam';
-import News from './homeSections/News';
+import Hero from './homeComponents/HeroSection';
+import AboutSection from './homeComponents/AboutSection';
+import TechnologySection from './homeComponents/TechnologySection';
+import ProductSection from './homeComponents/ProductSection';
+import OurTeam from './homeComponents/OurTeam';
+import News from './homeComponents/News';
 
 export const HomePage = () => {
   return (

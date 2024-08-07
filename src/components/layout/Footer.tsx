@@ -13,7 +13,10 @@ export const Footer = () => {
             <div className='px-3 md:px-10 lg:px-20 h-40'>
                 <div className='h-2/3 flex items-center'>
                    <div className='w-fit '>
-                      <Image src={abbcLogo} alt='abbc_logo' width={130} height={60} className='w-20 md:w-28'/>
+                    <Link href={'/'}>
+                       <Image src={abbcLogo} alt='abbc_logo' width={130} height={60} className='w-20 md:w-28'/>
+                    </Link>
+                      
                    </div>
                    <div className='hidden w-[50%] md:ml-[10%] lg:ml-[14%] md:flex md:justify-between'>
                        <div className='text-primary focus:font-semibold hover:font-medium cursor-pointer text-xs lg:text-sm navItem'><Link href={'/'}>Home</Link></div>

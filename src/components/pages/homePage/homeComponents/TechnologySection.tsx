@@ -20,7 +20,7 @@ const mockData = [
     
 ];
 
-export const TechnologySection = () => {
+const TechnologySection = () => {
     const [slide, setSlide] = useState<number>(1);
     
     function onSlide(evt:React.BaseSyntheticEvent){

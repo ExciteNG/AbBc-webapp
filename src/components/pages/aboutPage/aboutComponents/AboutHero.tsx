@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import aboutHero from "@/../public/assets/aboutHero.svg"
 
-export const AboutHero = () => {
+const AboutHero = () => {
   return (
     <section>
        <div className='relative'>

@@ -34,7 +34,7 @@ const mockDataNews = [
     }
 ]
 
-export const News = () => {
+const News = () => {
   const [news, setNews] = useState(mockDataNews);
 
   return (

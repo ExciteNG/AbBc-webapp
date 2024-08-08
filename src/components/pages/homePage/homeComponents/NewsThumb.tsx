@@ -8,7 +8,7 @@ type Props = {
     description:string,
     img: string;
 }
-export const NewsThumb = ({newsItem}:{newsItem:Props}) => {
+const NewsThumb = ({newsItem}:{newsItem:Props}) => {
   return (
     <div className='space-y-4'>
       <div className='rounded-md'>

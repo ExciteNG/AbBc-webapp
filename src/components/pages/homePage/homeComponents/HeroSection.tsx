@@ -5,7 +5,7 @@ import Heroimage from '@/../public/assets/backgroundheroimage.svg';
 import heroegif from "@/../public/assets/herogif.svg"
 import { Button } from '@/components/ui/button';
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <div className="relative">
       <Image src={Heroimage} alt='heroImage' className='w-full object-cover h-[90vh]'/>

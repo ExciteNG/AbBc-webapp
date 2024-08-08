@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import ourTeam from "@/../public/assets/ourteam.svg"
 
-export const OurTeam = () => {
+const OurTeam = () => {
   return (
     <section className='w-full px-4 md:px-10 py-10'>
       <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row justify-center items-center md:space-x-16 lg:space-x-32'>

@@ -26,7 +26,8 @@ export default function TechPage({}: Props) {
         <Image src={videospace} alt="videospace" className="w-fit mx-auto" />
       </div>
 
-      <News /> 
+      <News />
     </section>
   );
 }
+

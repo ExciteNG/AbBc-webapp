@@ -46,7 +46,7 @@ const NewsSlug = async ({ params }: { params: { slug: string } }) => {
             alt="news-image"
             width={300}
             height={300}
-            className="float-right m-0 w-1/2 ml-4 rounded-lg"
+            className="float-right m-0 w-1/3 ml-4 rounded-lg"
           />
         ) : null}
       </MaxWidthWrapper>

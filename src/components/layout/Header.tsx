@@ -27,9 +27,9 @@ export const Header = () => {
                     <Link href="/about">About</Link></div>
                 <div className={`text-primary text-xs md:text-sm lg:text-base ${pathName === '/technology' && 'font-semibold'} hover:font-semibold cursor-pointer navItemT`}>
                     <Link href="/technology">Technology</Link></div>
-                <div className={`text-primary text-xs md:text-sm lg:text-base ${pathName === 'product_pl' && 'font-semibold'} hover:font-semibold cursor-pointer navItemP`}>
+                <div className={`text-primary text-xs md:text-sm lg:text-base ${pathName === '/product_pl' && 'font-semibold'} hover:font-semibold cursor-pointer navItemP`}>
                     <Link href="/product_pl">Product & Pipeline</Link></div>
-                <div className={`text-primary text-xs md:text-sm lg:text-base ${pathName === 'news' && 'font-semibold'} hover:font-semibold cursor-pointer navItem`}>
+                <div className={`text-primary text-xs md:text-sm lg:text-base ${pathName === '/news' && 'font-semibold'} hover:font-semibold cursor-pointer navItem`}>
                     <Link href="/news">News</Link></div>
             </div>
             <div className='hidden md:block'>

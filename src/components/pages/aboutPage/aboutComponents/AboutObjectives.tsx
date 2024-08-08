@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
-export const AboutObjectives = () => {
+const AboutObjectives = () => {
   return (
     <section className='w-full'>
         <div className='w-full px-4 md:px-16 py-10'>

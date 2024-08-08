@@ -1,7 +1,7 @@
 import ProductPipeLinePage from "@/components/pages/ProductPipeLinePage";
 import React from "react";
 
-export const ProductPipeLine = () => {
+const ProductPipeLine = () => {
   return <ProductPipeLinePage />;
 };
 

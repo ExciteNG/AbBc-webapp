@@ -4,7 +4,7 @@ import Link from 'next/link';
 import videospace from "@/../public/assets/Video space.svg"
 import { Button } from '@/components/ui/button';
 
-export const ProductSection = () => {
+const ProductSection = () => {
   return (
     <section className='py-10'>
         <div className='bg-slate-100 px-4 flex flex-col space-y-4 md:space-y-0 md:flex-row md:justify-evenly md:items-center py-10 md:h-40'>

@@ -3,7 +3,7 @@ import TechHero from "./TechHero";
 import TechPlatform from "./TechPlatform";
 import Image from "next/image";
 import videospace from "@/../public/assets/Video space.svg";
-import News from "../homePage/homeSections/News";
+import News from "../homePage/homeComponents/News";
 
 type Props = {};
 

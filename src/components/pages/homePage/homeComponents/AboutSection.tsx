@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import moleculeImage from '@/../public/assets/moleculeimage.svg';
 
-export const AboutSection = () => {
+const AboutSection = () => {
   return (
     <>
     <section className='py-10 bg-slate-100 '>

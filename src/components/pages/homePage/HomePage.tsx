@@ -7,7 +7,7 @@ import ProductSection from './homeComponents/ProductSection';
 import OurTeam from './homeComponents/OurTeam';
 import News from './homeComponents/News';
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <section className='text-center'>
       <Hero />

@@ -12,54 +12,54 @@ async function getPosts() {
   const query = `*[_type == 'blog'] | order(_createdAt desc) {
   _id,
     title,
-    smallDescription,
+    titleImage,
     _createdAt,
-    "currentSlug": slug.current,
-    titleImage
+    "slug": slug.current,
+    "description": smallDescription,
 }`;
 
   const data = await client.fetch(query);
   return data;
 }
 
-const mockDataNews: INews[] = [
-  {
-    _createdAt: "July 24, 2024",
-    title: "Genetics Breakthrough",
-    description:
-      "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
-    content:
-      "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
-    titleImage: "/assets/newsImage.svg",
-  },
-  {
-    _createdAt: "July 24, 2024",
-    title: "Genetics Breakthrough",
-    description:
-      "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
-    content:
-      "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
-    titleImage: "/assets/newsImage.svg",
-  },
-  {
-    _createdAt: "July 24, 2024",
-    title: "Genetics Breakthrough",
-    description:
-      "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
-    content:
-      "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
-    titleImage: "/assets/newsImage.svg",
-  },
-  {
-    _createdAt: "July 24, 2024",
-    title: "Genetics Breakthrough",
-    description:
-      "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
-    content:
-      "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
-    titleImage: "/assets/newsImage.svg",
-  },
-];
+// const mockDataNews: INews[] = [
+//   {
+//     _createdAt: "July 24, 2024",
+//     title: "Genetics Breakthrough",
+//     description:
+//       "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
+//     content:
+//       "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
+//     titleImage: "/assets/newsImage.svg",
+//   },
+//   {
+//     _createdAt: "July 24, 2024",
+//     title: "Genetics Breakthrough",
+//     description:
+//       "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
+//     content:
+//       "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
+//     titleImage: "/assets/newsImage.svg",
+//   },
+//   {
+//     _createdAt: "July 24, 2024",
+//     title: "Genetics Breakthrough",
+//     description:
+//       "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
+//     content:
+//       "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
+//     titleImage: "/assets/newsImage.svg",
+//   },
+//   {
+//     _createdAt: "July 24, 2024",
+//     title: "Genetics Breakthrough",
+//     description:
+//       "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
+//     content:
+//       "Revolutionizes DNA Sequencing Technology for the DNA Engineering and improvement",
+//     titleImage: "/assets/newsImage.svg",
+//   },
+// ];
 
 export default async function News() {
   const blogs = await getPosts();
@@ -68,7 +68,8 @@ export default async function News() {
   return (
     <section>
       <NewsHero />
-      <NewsSection title="Latest news" newsData={mockDataNews} />
+      <NewsSection title="Latest news" newsData={blogs} />
+      {/* <NewsSection title="Upcomming news" newsData={mockDataNews} /> */}
     </section>
   );
 }

@@ -13,12 +13,11 @@ const ManagementTeam = () => {
         {managementTeamMembers.map((member) => {
           return (
             <article key={member.id}>
-              <div className="relative w-full h-[20rem]">
+              <div>
                 <Image
                   src={member.img}
                   alt={member.fullName}
-                  layout="fill"
-                  className="w-full h-full object-cover"
+                  className="w-full"
                 />
               </div>
               <div className="text-left">
